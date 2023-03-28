@@ -2,7 +2,7 @@
 import os
 from depend import funcs as f
 
-# focus on creating the program through commandline first then create the GUI no need to create gui until done make
+
 
 
 #file type or extension
