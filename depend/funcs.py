@@ -1,6 +1,6 @@
 import shutil
 import os
-import filetypes as ft
+from depend import filetypes as ft
 #pass in directory to clean up and file extension type
 def move(dir_path,file_type=None,extension=None,li=None):
 
