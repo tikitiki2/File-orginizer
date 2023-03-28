@@ -7,7 +7,7 @@ from depend import funcs as f
 
 #file type or extension
 filetype_ext=input('enter the kind of file you would like to organize or enter a specific file extension such as .mp3: ').lower()
-
+#calls funcs dependancy where validation also happens
 ftype=f.get_file_type(filetype_ext) # returns tuple with 2 elements if starts with . and 3 if not
 #example output ('category', 'images', ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg'])
 
